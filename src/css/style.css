@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+    font-size: 62.5%;
+}
+
+.carrosel{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.informacoes{
+    display: none;
+}
+
+.informacoes.ativa{
+    display: block;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 100dvh;
+}
+
+.informacoes h1{
+    font-size: 3.6rem;
+    color: #ffffff;
+    margin-bottom: 8rem;
+    font-family: 'GOT';
+    letter-spacing: 0.8rem;
+}
+@font-face {
+    font-family: "GOT";
+    src: url(../fontes/GOT.ttf);
+}
+
+.informacoes .descricao{
+    width: 49%;
+    font-size: 1.7rem;
+    color: #ffffff;
+    line-height: 2rem;
+    height: 300px;
+    overflow: auto;
+    padding-right: 1.5rem;
+}
+
+.botoes-carrosel{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.botoes-carrosel .botao{
+    background-color: #ffffff;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    cursor: pointer;
+    border-color: #ffffff;
+}
+
+.botoes-carrosel .botao.selecionado{
+    background-color: #1d8346;
+}
+
+.imagem{
+    width: 100dvw;
+    height: 100dvh;
+    object-fit: cover;
+    display: none;
+}
+
+.imagem.ativa{
+    display: block;
+    animation: mudarImagem 0.7s;
+}
+
+@keyframes mudarImagem{
+    from{
+        opacity: 0.85;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+main:after{
+    content: '';
+    min-height: 100dvh;
+    width: 100dvw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(120deg, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.05926120448179273) 50%, rgba(0, 0, 0, 1) 90%);
+    z-index: -1;
+}
