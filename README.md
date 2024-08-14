@@ -1,8 +1,8 @@
 # Projeto House of the Dragons
 Projeto realizado da série aclamada House of the Dragons 💻🚀
 
-[<img src="./gif-hod" alt="Gif do projeto House of the Dragons">](https://augusto-brunelli.github.io/projeto-hod/)
-[<img src="./gif-hod-mobile" alt="Gif do projeto House of the Dragons em tela menor">](https://augusto-brunelli.github.io/projeto-hod/)
+[<img src="./gif-hod.gif" alt="Gif do projeto House of the Dragons">](https://augusto-brunelli.github.io/projeto-hod/)
+[<img src="./gif-hod-mobile.gif" alt="Gif do projeto House of the Dragons em tela menor">](https://augusto-brunelli.github.io/projeto-hod/)
 
 ## Linguagens utilizadas:
 - HTML5
