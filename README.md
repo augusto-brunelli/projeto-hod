@@ -14,5 +14,7 @@ Fazer um carrosel de imagens com textos descritivos de cada dragão da série, a
 
 ## Dificulades enfrentadas:
 Na criação da estrutura do HTML foi fácil pois o projeto não tinha muito o que desenvolver além de uma imagem e um texto para cada dragão.
+
 Em contrapartida, na estilização do CSS foi mais desafiador pois era necessário deixar apenas uma imagem com seu respectivo texto visivel e o restante aparecer somente com JavaScript.
+
 Já no JavaScript foi bem mais dificil criar o código imaginando o que ele deveria fazer, mas com uma boa leitura nos meus resumos consegui cria-lo de forma bem prática e o resultado foi o esperado.
